@@ -1,0 +1,34 @@
+
+.slider-container-set1 {
+    background-color: rgb(43, 49, 72);
+    
+  
+    padding: 30px;
+}
+
+.slider-container-set1 img{
+    background-color: rgb(43, 49, 72);
+    
+  
+gap: 50px;
+}
+.img-con{
+    width: 100%;
+}
+.img-con-set1{
+    width: 18%;
+      padding-left: 10px;
+    height: 350px;
+    border-radius: 18px;
+}
+.head-con h1{
+    color: white;
+    margin-bottom: 0%;
+    padding-left: 10px;
+}
+.head-con h5{
+    margin-top: 0%;
+    color: white;
+    margin-bottom: 0%;
+    padding-left: 10px;
+}

@@ -1,0 +1,111 @@
+.img-con1{
+    width: 45px;
+    padding: 10px;
+    /* align-items: center; */
+}
+.btn-con1{
+    /* flex: 0 0 auto; */
+    /* background-color: rgb(236, 94, 113);
+    border-radius: 3px;
+    padding: 10px 40px;
+    white-space: nowrap;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none; */
+    color: rgb(255, 255, 255);
+    background-color: rgb(236, 94, 113);
+    font-size: 14px;
+    height: 39px;
+    width: 130px;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.main-con{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    background-color: rgb(49, 48, 53);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.con{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+   
+    .but-con{
+    display: flex;
+    align-items: center;
+    
+    width: 11%;
+    /* padding-right: 20px; */
+}
+.second-con1{
+    display: flex;
+    background-color: rgb(64, 64, 67);
+    justify-content: space-around;
+    color: #aaa;
+    padding: 10px 0;
+
+}
+.second-con div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+    /* margin-bottom: 10px; */
+
+
+.second-con div img{
+width: 80px;
+
+}
+.footer-main{
+    
+    background-color: rgb(49, 48, 53);
+    color: #aaa;
+    height: 100%;
+    
+}
+
+.footer{
+    /* background-color: rgb(64, 64, 67); */
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 15px;
+    
+}
+.logo-img1{
+    border-top: 2px solid #aaa;
+    text-align: center;
+
+    
+}
+.logo{
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+    /* width: 100%; */
+    
+}
+.same{
+    /* padding-left: 20px; */
+    width: 50px;
+    
+}
+.copyright {
+     margin: 50px;
+    font-size: 13px;
+    text-align: center;
+    /* height: 100%; */
+    padding-bottom:20px;
+}

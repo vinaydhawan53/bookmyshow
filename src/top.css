@@ -1,0 +1,129 @@
+.super-container {
+    display: flex;
+    padding: 15px 40px 0px 40px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ist-con {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    gap: 10px;
+}
+
+img {
+    padding-top: 13px;
+    width: 140px;
+    margin-right: 10px;
+}
+
+.one {
+    width: 100%;
+}
+
+.search {
+    margin-top: 8px;
+    display: flex;
+    opacity: 1;
+    cursor: text;
+    max-width: 549px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+.icon {
+    margin: 10px 10px;
+}
+
+.search-input {
+
+    border: none;
+    width: 70%;
+    height: 40px;
+    outline: none;
+}
+
+
+.loc-con {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+select {
+    font-size: 15px;
+    width: 100px;
+    border: none;
+    height: 30px;
+}
+
+.btn1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 68, 100);
+    font-size: 14px;
+    height: 27px;
+    width: 68px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+
+
+}
+
+button {
+    width: 100px;
+    height: 40px;
+}
+
+.icon-con {
+    font-size: 20px;
+    
+}
+
+.super-second-con {
+    width: 100%;
+    display: flex;
+    
+}
+.super-second-one{
+    gap: 10px;
+    height: 45px; 
+    width:100%;
+    display: flex;
+   background: rgb(245, 245, 245);
+    align-items: center;
+    white-space: nowrap;
+    font-size: 15px;
+  
+} 
+
+.first-con {
+    display: flex; 
+    width: 78%;
+
+    cursor: pointer;
+}
+/* .ist-con > img{
+    filter: hue-rotate(180deg);
+
+} */
+
+ .second-con {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+   
+ }
+
+
+/*  
+  Footer{
+    width: 25%;
+    height: 100%;
+
+  } */

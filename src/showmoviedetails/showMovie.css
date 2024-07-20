@@ -1,0 +1,160 @@
+.big-container {
+    display: flex;
+   /* background-image: linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%), url("https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/jatt-and-juliet-3-et00370091-1717586765.jpg"); */
+   /* height: 80vh; */
+  
+  
+  }
+  
+  .movie-card {
+    display: flex;
+    border-radius: 20px;
+    margin: 40px;
+  
+  }
+  
+  .movie-image {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-details {
+  
+    text-align: start;
+    color: white;
+    margin-top: 80px;
+  }
+  
+  .movie-title {
+    margin: 0;
+    font-size: 24px;
+    color: #f8f8f863;
+    font-weight: bold;
+  }
+  
+  .rating {
+    border-radius: 8px;
+  
+    gap: 60px;
+  
+    align-items: center;
+    display: flex;
+    padding: 0px 40px;
+    max-width: 446px;
+    height: 70px;
+    cursor: pointer;
+    background-color: rgb(51, 51, 51);
+  }
+  
+  
+  .movie-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .movie-rating p,
+  h5,
+  h6 {
+    font-size: 20px;
+  }
+  
+  .btn-set {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: 4px;
+    padding: 8px 12px;
+    border: none;
+    color: rgb(26, 26, 26);
+  
+  }
+  
+  
+  
+  .format-lang{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .format-lang h5{
+   background-color: white;
+   padding: 5px;
+   border-radius: 3px;
+   color: #282c34;
+   margin-bottom: 0%;
+  
+  }
+  .additional-info{
+    margin-top: 0%;
+    display: flex;
+    gap: 10px;
+  }
+  .movie-info span,
+  .movie-additional-info span {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .book-tickets-button {
+    padding: 0px;
+    border: 1px solid rgb(248, 68, 100);
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 68, 100);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 8px;
+    width: 45%;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  
+  }
+  .about-sec{
+    width: 60%;
+    padding-left: 30px;
+    /* border-bottom: 1px solid black; */
+
+}
+.cast{
+
+    border-top: 1px solid black;
+    padding: 30px;
+}
+.cast-sec{
+    display: flex;
+}
+.picture > img {
+    border-radius: 50%;
+
+}
+.cast-sec{
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.picture{
+    display: flex;
+  
+    flex-direction: column;
+    text-align: center;
+
+}
+.picture > p{
+    margin-top: 0%;
+
+
+
+}
+.picture >h5{
+    margin-bottom: 0%;
+white-space:wrap;
+width: 100%;
+}

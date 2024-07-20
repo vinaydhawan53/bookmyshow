@@ -1,0 +1,65 @@
+.App {
+    text-align: center;
+  }
+  
+  .seating-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .seat-row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .seat-row h2 {
+    margin-right: 20px;
+    padding-left: 0%;
+    font-size: 0%;
+  }
+  
+  .seat {
+    width: 30px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    cursor: pointer;
+  }
+  
+  .seat.recliner {
+    background-color: #ffcccc;
+  }
+  
+  .seat.prime {
+    background-color: #ccffcc;
+  }
+  
+  .seat.classic {
+    background-color: #ccccff;
+  }
+  
+  .seat.selected {
+    background-color: green;
+    color: #fff;
+  }
+  .btn-book-con{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+   background-color: #ff5370;
+   border: none;
+   border-radius: 5px;
+   width: 250px;
+   height: 40px;
+   justify-content: center;
+   cursor: pointer;
+   font-family: 'Courier New', Courier, monospace;
+
+  }
+  
