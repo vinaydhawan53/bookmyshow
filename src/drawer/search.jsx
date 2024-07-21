@@ -1,90 +1,92 @@
-import React, { useEffect } from 'react';
-// import ReactDOM from 'react-dom';
-// import Modal from 'react-modal';
+// import React, { useEffect } from 'react';
+// // import ReactDOM from 'react-dom';
+// // import Modal from 'react-modal';
+// // import { Modal } from "flowbite-react";
+// // "use client";
 // import { Modal } from "flowbite-react";
-// "use client";
-import { Modal } from "flowbite-react";
-import { useState } from "react";
-import { moviesData } from '../data/movie';
-// import SearchMovie from './searchmovie';
-export function Show3() {
-    const [openModal, setOpenModal] = useState(false);
-    const [searchOutput, setSearchOutput] = useState([]);
-    // const [email, setEmail] = useState('');
-    const [showModal, setShowModal] = useState(false)
+// import { useState } from "react";
+// import { moviesData } from '../data/movie';
+// // import SearchMovie from './searchmovie';
 
-    const search = (e) => {
-      return (<>
-      {  moviesData?.filter((element, i, arr) => {
-            const localTypeValue = e?.target?.value.toLowerCase();
+// export function Show3() {
+//     const [openModal, setOpenModal] = useState(false);
+//     const [searchOutput, setSearchOutput] = useState([]);
+//     // const [email, setEmail] = useState('');
+//     const [showModal, setShowModal] = useState(false)
+
+//     const search = (e) => {
+//       return (<>
+//       {  moviesData?.filter((element, i, arr) => {
+//             const localTypeValue = e?.target?.value.toLowerCase();
             
-            const movieTitle = element?.Title?.toLowerCase()
-            const check = movieTitle?.includes(localTypeValue)
+//             const movieTitle = element?.Title?.toLowerCase()
+//             const check = movieTitle?.includes(localTypeValue)
             
-            console.log(check, 'ONE')
-            if (check) {
+//             console.log(check, 'ONE')
+//             if (check) {
                 
-                setSearchOutput([...searchOutput, element])
+//                 setSearchOutput([...searchOutput, element])
                 
-            } else {
-                setSearchOutput([...searchOutput, element])
+//             } else {
+//                 setSearchOutput([...searchOutput, element])
                 
-            }
+//             }
             
-        }
-    )
-}
-        </>)
-    }
+//         }
+//     )
+// }
+//         </>)
+//     }
 
-    useEffect(() => {
-        console.log('USE EFFECT', searchOutput)
+//     useEffect(() => {
+//         console.log('USE EFFECT', searchOutput)
         
-        if (searchOutput?.length > 0) {
-            setOpenModal(true)
-            setShowModal(!showModal)
-        } else {
-            setOpenModal(false)
-        }
-    }, [searchOutput])
+//         if (searchOutput?.length > 0) {
+//             setOpenModal(true)
+//             // setShowModal(!showModal)
+//         } else {
+//             setOpenModal(false)
+//         }
+//     }, [searchOutput])
 
-    function onCloseModal() {
-        setOpenModal(false);
-        // setEmail('');
+//     function onCloseModal() {
+//         setOpenModal(false);
+//         // setEmail('');
         
         
         
-    }
-    console.log(searchOutput, 'JKJK')
 
-    return (
-        <>
+//     }
+//     // console.log(searchOutput, 'JKJK')
 
-            <div className="one">
-                <div className="search">
+//     return (
+//         <>
+
+//             <div className="one">
+//                 <div className="search">
 
 
-                    <i className="fa-solid fa-magnifying-glass icon  "> </i>
+//                     <i className="fa-solid fa-magnifying-glass icon  "> </i>
 
-                    <input onChange={(e) => search(e)} type="text" placeholder="Search for Movies,Events Plays,Sport and Activities" className="search-input" />
+//                     <input onChange={(e) => search(e)} type="text" placeholder="Search for Movies,Events Plays,Sport and Activities" className="search-input" />
 
-                </div>
-            </div>
-            {console.log(showModal, 'SHOW')}
-            {showModal && <Modal open={showModal} size="md" onClose={onCloseModal} popup>
-                <Modal.Body>
+//                 </div>
+//             </div>
+//             {console.log(showModal, 'SHOW')}
+//             {showModal && <Modal open={showModal} size="md" onClose={onCloseModal} popup>
+//                 <Modal.Body>
 
-                    {searchOutput?.map(e => {
+//                     {searchOutput?.map(e => {
 
-                        return (<div>
-                            {e.Title}
+//                         return (<div>
+//                             {e.Title}
 
-                        </div>)
+//                         </div>)
 
-                    })}
+//                     })}
 
-                </Modal.Body>
-            </Modal>}
-        </>
-    );
-}
+//                 </Modal.Body>
+//             </Modal>}
+//         </>
+//     );
+// }

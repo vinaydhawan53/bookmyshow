@@ -38,7 +38,7 @@ export function Sports() {
         India is a country where sportspersons receive immense love from fans and spectators. Sports lovers in this country are the prime reason for the enormous popularity of almost all sports in India. Although <strong>Cricket</strong> is a religion for the Indians, there is a sizable fan base of other sports events.
       </p>
       <p>
-        You will know about upcoming sports events near you in 2024 on BookMyShow. Apart from obtaining detailed information, you can also book tickets for sports like <a href="#">Run for the Ocean - Get Medal by Courier</a>, <a href="#">Freedom Virtual Marathon - Get Trophy by Courier & International Virtual Marathon</a> happening in Ahmedabad without any hassle. You can take part and enjoy the experience live.
+        You will know about upcoming sports events near you in 2024 on BookMyShow. Apart from obtaining detailed information, you can also book tickets for sports like Run for the Ocean - Get Medal by Courier Freedom Virtual Marathon - Get Trophy by Courier & International Virtual Marathon happening in Ahmedabad without any hassle. You can take part and enjoy the experience live.
       </p>
       
       <h2>Witness or Take Part in Different Adrenaline-Boosting Sports Match in Ahmedabad</h2>

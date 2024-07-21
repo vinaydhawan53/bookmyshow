@@ -10,7 +10,7 @@ import { useState } from "react";
 export function Show() {
   const navigate=useNavigate();
   const [openModal, setOpenModal] = useState(false);
-  const [email, setEmail] = useState('');
+  // const [email, setEmail] = useState('');
   const LoginPage=()=>{
     setOpenModal(false)
     navigate('/ LoginSignup')
@@ -18,7 +18,7 @@ export function Show() {
 
   function onCloseModal() {
     setOpenModal(false);
-    setEmail('');
+    // setEmail('');
   }
 
   return (
@@ -42,7 +42,7 @@ export function Show() {
       <div class="or-separator">OR</div>
 
       <button class="login-button mobile">+91 Continue with mobile number </button>
-      <div class="terms"> I agree to the <a href="#">Terms & Conditions</a> & <a href="#">Privacy Policy</a>  </div>
+      <div class="terms"> I agree to the Terms & Conditions & Privacy Policy </div>
           
             </div>
             </div>

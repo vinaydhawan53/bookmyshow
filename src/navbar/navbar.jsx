@@ -1,5 +1,5 @@
 import React from "react";
-import { Show3 } from "../drawer/search";
+// import { Show3 } from "../drawer/search";
 import { Show } from '../drawer/sign'
 import { Show1 } from '../drawer/location';
 import Sidebar from "../drawer/drawer";
@@ -35,7 +35,16 @@ export function Navbar() {
                 <img src='https://cdn.prod.website-files.com/600ee75084e3fe0e5731624c/65b6384089ec9e265952391f_bookmyshow-logo-vector-removebg-preview%20(1)-p-500.png' alt="" />
 
                 {/* <h3>book<span>my</span>Show</h3> */}
-                <Show3 />
+                <div className="one">
+                <div className="search">
+
+
+                    <i className="fa-solid fa-magnifying-glass icon  "> </i>
+
+                    <input type="text" placeholder="Search for Movies,Events Plays,Sport and Activities" className="search-input" />
+
+                </div>
+            </div>
             </div>
 
 
