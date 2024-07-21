@@ -1,6 +1,6 @@
 import React from 'react'
 import './card.css'
-import { Moviesclick } from '../../showmoviedetails/showMovie'
+// import { Moviesclick } from '../../showmoviedetails/showMovie'
 import { Link } from 'react-router-dom'
 const Card = ({ img, name, title,link }) => {
     const handleCardClick =() =>{  }

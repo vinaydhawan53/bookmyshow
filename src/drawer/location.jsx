@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import {  Modal } from "flowbite-react";
-import CitySelector from '../ni';
+// import CitySelector from '../ni';
 
 
 const popularCities = [
@@ -26,13 +26,13 @@ const otherCities = [
 export function Show1() {
     const [openModal, setOpenModal] = useState(false);
     const [showAllCities, setShowAllCities] = useState(false); 
-    const [email, setEmail] = useState('');
+    // const [email, setEmail] = useState('');
     const [selectedCity, setSelectedCity] = useState('')
 
   
     function onCloseModal() {
       setOpenModal(false);
-      setEmail('');
+    //   setEmail('');
     }
 
     console.log(selectedCity, 'CITY')

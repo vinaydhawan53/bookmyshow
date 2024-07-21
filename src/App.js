@@ -33,10 +33,10 @@ import { Sports } from './router/Sports';
 import { Activities } from './router/Activities';
 // import { ContactForm } from './contact';
 // import { BookingSuccess } from './showmoviedetails/sucees';
-import { ContactForm, LoginSignup1 } from './router/contact';
+import {  LoginSignup1 } from './router/contact';
 import Aboutus from './router/aboutus';
 import { LoginSignup } from './drawer/login';
-import { Payment } from './showmoviedetails/payment';
+// import { Payment } from './showmoviedetails/payment';
 import { BookingSuccess } from './showmoviedetails/sucees';
 function App() {
   return (<>

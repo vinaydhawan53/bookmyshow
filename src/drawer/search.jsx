@@ -1,41 +1,45 @@
 import React, { useEffect } from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 // import Modal from 'react-modal';
 // import { Modal } from "flowbite-react";
 // "use client";
 import { Modal } from "flowbite-react";
 import { useState } from "react";
 import { moviesData } from '../data/movie';
-import SearchMovie from './searchmovie';
+// import SearchMovie from './searchmovie';
 export function Show3() {
     const [openModal, setOpenModal] = useState(false);
     const [searchOutput, setSearchOutput] = useState([]);
-    const [email, setEmail] = useState('');
+    // const [email, setEmail] = useState('');
     const [showModal, setShowModal] = useState(false)
 
     const search = (e) => {
-        moviesData?.filter((element, i, arr) => {
+      return (<>
+      {  moviesData?.filter((element, i, arr) => {
             const localTypeValue = e?.target?.value.toLowerCase();
-
+            
             const movieTitle = element?.Title?.toLowerCase()
             const check = movieTitle?.includes(localTypeValue)
-
+            
             console.log(check, 'ONE')
             if (check) {
-
+                
                 setSearchOutput([...searchOutput, element])
-
+                
             } else {
                 setSearchOutput([...searchOutput, element])
-
+                
             }
-
-        })
+            
+        }
+    )
+}
+        </>)
     }
 
     useEffect(() => {
         console.log('USE EFFECT', searchOutput)
-
+        
         if (searchOutput?.length > 0) {
             setOpenModal(true)
             setShowModal(!showModal)
@@ -46,10 +50,10 @@ export function Show3() {
 
     function onCloseModal() {
         setOpenModal(false);
-        setEmail('');
-
-
-
+        // setEmail('');
+        
+        
+        
     }
     console.log(searchOutput, 'JKJK')
 

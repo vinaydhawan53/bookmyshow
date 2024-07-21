@@ -1,6 +1,6 @@
   import React from "react"
   import { TrendingSearch } from "./movie"
-  import Card from "../compoenents/Card/card"
+//   import Card from "../compoenents/Card/card"
   
   export function Treding() {
     // console.log(moviesData);

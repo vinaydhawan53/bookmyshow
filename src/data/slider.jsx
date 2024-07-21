@@ -1,4 +1,4 @@
-import { Funmovie } from './movie'
+// import { Funmovie } from './movie'
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import React from 'react';
@@ -16,7 +16,7 @@ import banner3 from '../images/premium/banner3.png';
 import banner4 from '../images/premium/banner4.png';
 import banner5 from '../images/premium/banner5.png';
 import banner6 from '../images/premium/banner6.png';
-import banner7 from '../images/premium/banner7.png';
+// import banner7 from '../images/premium/banner7.png';
 
 export function Sliding() {
   return (

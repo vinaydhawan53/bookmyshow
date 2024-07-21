@@ -6,19 +6,22 @@ function SearchMovie(e) {
     
     const [searchOutput,setSearchOutput]=useState([]);
     const search = (e) => {
-    moviesData.filter((element, i, arr) => {
-        const localTypeValue = e?.target?.value.toLowerCase();
-        const movieTitle = element?.Title?.toLowerCase()
-        const check = movieTitle?.includes(localTypeValue)
-        if(check){
-            setSearchOutput(element)
+        return(<>
+    { moviesData.filter((element, i, arr) => {
+            const localTypeValue = e?.target?.value.toLowerCase();
+            const movieTitle = element?.Title?.toLowerCase()
+            const check = movieTitle?.includes(localTypeValue)
+            if(check){
+                setSearchOutput(element)
+                
+                // console.log(element);
+            }
+            else{
+            }
             
-            // console.log(element);
-        }
-        else{
-        }
-        
-    })
+        })
+    }
+    </>)
 }
 
 console.log(searchOutput, 'ELEEL')
