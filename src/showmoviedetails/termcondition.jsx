@@ -1,15 +1,15 @@
 
 "use client";
-import { useLocation, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 // import { Modal } from "flowbite-react";
 
-import { Button, Modal } from "flowbite-react";
+import {  Modal } from "flowbite-react";
 import { useState } from "react";
 
 export function Component({totalPrice}) {
     const [openModal, setOpenModal] = useState(false);
     const navigate = useNavigate();
-    const location = useLocation();
+    // const location = useLocation();
     const ticketBook = () => {
         navigate('/BookingSuccess', {state : totalPrice});
       };

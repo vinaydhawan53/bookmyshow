@@ -14,13 +14,13 @@ export function Navbar() {
         setIsOpen((prevState) => !prevState)
     }
 
-    const [openModal, setOpenModal] = React.useState(true);
+    // const [openModal, setOpenModal] = React.useState(true);
     // const [email, setEmail] = useState('');
 
-    function onCloseModal() {
-        setOpenModal(false);
-        //   setEmail('');
-    }
+    // function onCloseModal() {
+    //     setOpenModal(false);
+    //     //   setEmail('');
+    // }
 
 
     const handleNavigate = (path) => {

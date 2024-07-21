@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { moviesData } from '../data/movie'
 
- export function SearchMovie(e) {
-const [searchOutput,setSearchOutput]=useState([]);
-
-
- const search = (e) => {
+function SearchMovie(e) {
+    
+    
+    const [searchOutput,setSearchOutput]=useState([]);
+    const search = (e) => {
     moviesData.filter((element, i, arr) => {
         const localTypeValue = e?.target?.value.toLowerCase();
         const movieTitle = element?.Title?.toLowerCase()

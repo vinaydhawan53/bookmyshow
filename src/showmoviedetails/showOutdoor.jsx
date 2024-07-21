@@ -1,12 +1,12 @@
 import React from "react";
 import { outdoor, ShowOutdoorMovie } from "./outdoor";
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { useParams } from "react-router-dom";
 // import { ShowOutdoorMovie } from "./outdoor";
 export function OutdoorPicture() {
     const navigate = useNavigate();
-    const location = useLocation();
+    // const location = useLocation();
 
     const { name } = useParams()
     const ticketBook = () => {

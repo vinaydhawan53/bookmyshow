@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Bookticket, theaterdata } from './bookticketdata'
+import { theaterdata } from './bookticketdata'
 import { useLocation, useNavigate } from "react-router-dom";
 export function Booking() {
 

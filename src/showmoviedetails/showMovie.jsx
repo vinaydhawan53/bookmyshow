@@ -1,4 +1,4 @@
-import { Link, useParams , useNavigate} from 'react-router-dom'
+import { useParams , useNavigate} from 'react-router-dom'
 import { AboutData, castmovie, crewMovieData, ShowDetailMovie } from './moviesdata'
 
 import React from 'react'

@@ -1,8 +1,8 @@
 import React from "react";
-import { Footer } from "./upper";
-import Sidebar from "./drawer/drawer";
-import { Show } from './drawer/sign'
-import { Show1 } from './drawer/location';
+// import { Footer } from "./upper";
+// import Sidebar from "./drawer/drawer";
+// import { Show } from './drawer/sign'
+// import { Show1 } from './drawer/location';
 import { Treding } from "./data/container5";
 import { OutdoorEvents } from "./data/container3";
 import { Sliding, Sliding1 } from "./data/slider";
@@ -10,18 +10,18 @@ import { LaughterShow } from "./data/container4";
 import { Container } from "./data/container";
 import { Funmoviedata } from "./data/container2";
 import 'swiper/css';
-import { Navbar } from "./navbar/navbar";
+// import { Navbar } from "./navbar/navbar";
 
 
 import img3 from './images/img3.png'
-import { useNavigate, useParams } from "react-router-dom";
-import { navbarMenuItems, navbarMenuItems1 } from "./constant";
+// import { useNavigate, useParams } from "react-router-dom";
+// import { navbarMenuItems, navbarMenuItems1 } from "./constant";
 // import { Outdoor, ShowDetailMovie } from "./data/movie";
-import SearchMovie from "./drawer/searchmovie";
-import { Show3 } from "./drawer/search";
-import { ShowDetailMovie } from "./data/movie";
-import { Moviesclick } from "./showmoviedetails/showMovie";
-import { Bookticket1 } from "./showmoviedetails/bookticket";
+// import SearchMovie from "./drawer/searchmovie";
+// import { Show3 } from "./drawer/search";
+// import { ShowDetailMovie } from "./data/movie";
+// import { Moviesclick } from "./showmoviedetails/showMovie";
+// import { Bookticket1 } from "./showmoviedetails/bookticket";
 
 // import { navbarMenuItems1 } from "./const1";
 export function Top() {

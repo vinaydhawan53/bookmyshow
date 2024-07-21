@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigate, useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 // import './BookingSuccess.css';
 
 export function BookingSuccess() {

@@ -152,9 +152,9 @@ export function Select() {
     );
   };
 
-  const ticketBook = () => {
-    // Your booking logic here
-  };
+  // const ticketBook = () => {
+  //   // Your booking logic here
+  // };
 console.log(propData,'HHH')
   return (
     <div className="App">
