@@ -1,20 +1,28 @@
 .super-container {
     display: flex;
-    padding: 15px 40px 0px 40px;
+    padding: 10px 40px 0px 40px;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.ist-con {
+.ist-cond {
     display: flex;
-    width: 70%;
+    width: 100%;
     align-items: center;
     gap: 10px;
 }
+.ist-cond  h3{
+    font-size: 22px;
+  font-weight: 500;   
+ 
+
+}
+
 
 img {
     padding-top: 13px;
     width: 140px;
+    height: 40px;
     margin-right: 10px;
 }
 
@@ -23,11 +31,12 @@ img {
 }
 
 .search {
+    margin-left: 10px;
     margin-top: 8px;
     display: flex;
     opacity: 1;
     cursor: text;
-    max-width: 549px;
+    max-width: 650px;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(238, 238, 238);
     border-radius: 5px;

@@ -29,11 +29,12 @@ export function Navbar() {
     }
     return (<>
         <div className="super-container">
-            <div className="ist-con">
+            <div className="ist-cond">
                 {/* <img src="" alt="" /> */}
 
-                <img src='https://cdn.prod.website-files.com/600ee75084e3fe0e5731624c/65b6384089ec9e265952391f_bookmyshow-logo-vector-removebg-preview%20(1)-p-500.png' alt="" />
-
+                 {/* <img src='https://cdn.prod.website-files.com/600ee75084e3fe0e5731624c/65b6384089ec9e265952391f_bookmyshow-logo-vector-removebg-preview%20(1)-p-500.png' alt="" /> */}
+{/* <img src="https://as2.ftcdn.net/v2/jpg/01/68/46/15/1000_F_168461551_pyiS0OjsgzoEvZly7VXBoULmoHxoquCW.jpg" alt="" /> */}
+<h3>Movie<span>Ticket</span></h3>
                 {/* <h3>book<span>my</span>Show</h3> */}
                 <div className="one">
                 <div className="search">
