@@ -5,8 +5,6 @@
 .main-div-set-fun{
     display: flex;
     padding-left: 20px;
-    /* border: 10px solid; */
-    /* justify-content: space-around; */
 }
 .fun-data-set{
   
@@ -16,7 +14,7 @@
 .fun-rel-loc-set{
     padding-left: 20px;
     display: flex;
-    gap:  70px;
+    gap:  50px;
     border-top: 1px solid #ccc;
 }
 .fun-btn-set{

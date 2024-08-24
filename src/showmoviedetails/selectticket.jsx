@@ -152,9 +152,7 @@ export function Select() {
     );
   };
 
-  // const ticketBook = () => {
-  //   // Your booking logic here
-  // };
+ 
 console.log(propData,'HHH')
   return (
     <div className="App">
@@ -179,7 +177,6 @@ console.log(propData,'HHH')
         <div className="total-price">
           <h2>Total Price: ₹{totalPrice}</h2>
         </div>
-        {/* {isSelected && <button className='btn-book-con' onClick={ticketBook}>Book Ticket</button>} */}
         <Component totalPrice={totalPrice} />
       </div>
     </div>

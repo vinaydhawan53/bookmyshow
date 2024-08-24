@@ -1,18 +1,10 @@
 .img-con1{
     width: 45px;
     padding: 10px;
-    /* align-items: center; */
+ 
 }
 .btn-con1{
-    /* flex: 0 0 auto; */
-    /* background-color: rgb(236, 94, 113);
-    border-radius: 3px;
-    padding: 10px 40px;
-    white-space: nowrap;
-    cursor: pointer;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    border: none; */
+   
     color: rgb(255, 255, 255);
     background-color: rgb(236, 94, 113);
     font-size: 14px;
@@ -44,7 +36,6 @@
     align-items: center;
     
     width: 11%;
-    /* padding-right: 20px; */
 }
 .second-con1{
     display: flex;
@@ -62,7 +53,6 @@
 
 }
 
-    /* margin-bottom: 10px; */
 
 
 .second-con div img{
@@ -78,7 +68,6 @@ width: 80px;
 }
 
 .footer{
-    /* background-color: rgb(64, 64, 67); */
     padding-left: 25px;
     padding-top: 10px;
     font-size: 15px;
@@ -94,11 +83,9 @@ width: 80px;
     font-size: 30px;
     margin: 30px;
     text-align: center;
-    /* width: 100%; */
     
 }
 .same{
-    /* padding-left: 20px; */
     width: 50px;
     
 }
@@ -106,6 +93,5 @@ width: 80px;
      margin: 50px;
     font-size: 13px;
     text-align: center;
-    /* height: 100%; */
     padding-bottom:20px;
 }

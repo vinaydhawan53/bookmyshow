@@ -36,7 +36,6 @@ export function Moviesclick() {
                   </div>
                   <button className='btn-set'>rate now</button>
 
-                  {/* <>⭐ {movie.rating}/10 ({movie.votes.toLocaleString()} Votes)</> */}
                 </div>
                 <div className="format-lang">
                   <h5>{movie.format}</h5>
@@ -44,12 +43,9 @@ export function Moviesclick() {
                 </div>
                 <div className="additional-info">
                   <p>{movie.duration}</p>
-                  {/* <p>{movie.genre.join (',  ') }</p> */}
                   <p>{movie.certificate}</p>
                   <p>{movie.release_date}</p>
                 </div>
-                {/* <a href link><button className="book-tickets-button">Book tickets</button> </a> */}
-                {/* <Link to={{pathname: "/bookticket", state: movie}}><button className="book-tickets-button">Book tickets</button></Link> */}
                 <button className="book-tickets-button" onClick={() => handleNavigate('/bookticket', movie)}>Book tickets</button>
               </div>
             </>)
@@ -73,7 +69,6 @@ export function Moviesclick() {
 
 return e.name === name ?
   e.Subdata.map(e => {
-    // console.log(e, 'SUB DATA')
     return (
       <>
         <h1>{e.title}</h1>
@@ -86,15 +81,6 @@ return e.name === name ?
   }) : <></>
 
 })}
-
-
-
-
-
-      {/* <h1>About the movie</h1>
-      <p>A battle of wits begins as Fateh joins the police force and meets his charming boss, Pooja, sparking a romantic comedy of unexpected twists. Will Pooja fall into Fateh`s honey trap, or will Cupid`s arrow lead to real love as they embark on an important mission in this rib-tickling affair?</p> */}
-
-
     </div>
     <div className='cast'>
 

@@ -31,11 +31,8 @@ export function Show() {
         <div class="modal-content">
             <div className='cross-con'> 
             <i onClick={onCloseModal} class="fa-solid fa-xmark"></i>
-            </div>
-                
-                
+            </div>       
         <h2>Get Started</h2>
-      
       <button class="login-button google " onClick={LoginPage}> <i class="fa-brands fa-google icons-set1 "> </i>  Continue with Google</button>
       <button class="login-button email"><i class="fa-regular fa-envelope icons-set1"></i>Continue with Email </button>
       <button class="login-button apple"> <i class="fa-brands fa-apple icons-set1"></i>Continue with Apple</button>
@@ -43,7 +40,6 @@ export function Show() {
 
       <button class="login-button mobile">+91 Continue with mobile number </button>
       <div class="terms"> I agree to the Terms & Conditions & Privacy Policy </div>
-          
             </div>
             </div>
         </Modal.Body>

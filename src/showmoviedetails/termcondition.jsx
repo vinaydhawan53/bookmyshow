@@ -1,7 +1,6 @@
 
 "use client";
 import {  useNavigate } from 'react-router-dom';
-// import { Modal } from "flowbite-react";
 
 import {  Modal } from "flowbite-react";
 import { useState } from "react";
@@ -9,7 +8,6 @@ import { useState } from "react";
 export function Component({totalPrice}) {
     const [openModal, setOpenModal] = useState(false);
     const navigate = useNavigate();
-    // const location = useLocation();
     const ticketBook = () => {
         navigate('/BookingSuccess', {state : totalPrice});
       };
@@ -20,13 +18,11 @@ export function Component({totalPrice}) {
 
             <button onClick={() => setOpenModal(true)} className='btn-book-con'>book ticket</button>
 
-            {/* <Button onClick={() => setOpenModal(true)}>Toggle modal</Button> */}
             <Modal dismissible show={openModal} onClose={() => setOpenModal(false)}>
                 <div className="terms-con">
                     <div className="terms-con-set">
 
                         <Modal.Header>Terms of Service</Modal.Header>
-                        {/* <Modal.Body> */}
 
                             <div className="set-terms-condtion">
 
@@ -40,7 +36,6 @@ export function Component({totalPrice}) {
                                 <p>8. Tickets once purchased cannot be cancelled, exchanged or refunded.</p>
                                 <p>9. Ticket prices are subject to change without any prior notification.</p>
                             </div>
-                        {/* </Modal.Body> */}
                         <div className="term-con-set-btn">
 
                             <div className="term-btn">

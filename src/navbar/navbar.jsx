@@ -5,7 +5,7 @@ import { Show1 } from '../drawer/location';
 import Sidebar from "../drawer/drawer";
 import { useNavigate } from "react-router-dom";
 // import { navbarMenuItems, navbarMenuItems1 } from "./constant";
-import { navbarMenuItems, navbarMenuItems1 } from "../constant";
+import { navbarMenuItems, navbarMenuItems1 } from "../navbardata";
 export function Navbar() {
     const [isOpen, setIsOpen] = React.useState(false)
     const navigate = useNavigate()

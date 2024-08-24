@@ -1,10 +1,8 @@
 import React from "react";
-// import { outdoor, ShowOutdoorMovie } from "./outdoor";
 import { useParams } from "react-router-dom";
 import { laughter, ShowLaughterMovie } from "./laugther";
 import {  useNavigate } from 'react-router-dom';
 
-// import { ShowOutdoorMovie } from "./outdoor";
 export function LaughterPicture() {
     const navigate = useNavigate();
 

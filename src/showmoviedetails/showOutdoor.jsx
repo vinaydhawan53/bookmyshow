@@ -3,15 +3,12 @@ import { outdoor, ShowOutdoorMovie } from "./outdoor";
 import { useNavigate } from 'react-router-dom';
 
 import { useParams } from "react-router-dom";
-// import { ShowOutdoorMovie } from "./outdoor";
 export function OutdoorPicture() {
     const navigate = useNavigate();
-    // const location = useLocation();
-
     const { name } = useParams()
     const ticketBook = () => {
         navigate('/BookingSuccess',);
-      };
+    };
 
     return <>
 
@@ -21,8 +18,6 @@ export function OutdoorPicture() {
 
                 <div className='set-pic' >
                     {e.name === name && <img src={e?.backgroundImg} alt="" srcset="" />}</div>
-
-
 
             </>
 

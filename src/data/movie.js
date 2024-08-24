@@ -1,8 +1,3 @@
-// import img1 from './src/images/img1.jpg'
-// import img1 from './images/img1.jpg'
-
-
-
 export const moviesData = [
   {
       "id":1,
@@ -86,10 +81,11 @@ export const Funmovie=[{
        "link":"/showExplorefun/Sadda pind, Amritsar"
 },
 {
-    "name":"Choki Dhani,Sonipat",
-    "Title": "Choki Dhani,Sonipat",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCA3IEp1bCBvbndhcmRz,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00096127-dujcgvaqfq-portrait.jpg",
-    "link":"/showExplorefun/Choki Dhani,Sonipat"
+    "name":"Mehfil E Sartaaj -India Tour",
+    "Title": "Multiple venues Concerts",
+    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAzMCBBdWcgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,lx-15,ly-15,w-50,l-end/et00362185-pslqmgsnlc-portrait.jpg",
+    "link":"/showExplorefun/Mehfil E Sartaaj -India Tour",
+    // {Image}
 }
 ]
 
@@ -112,10 +108,10 @@ export const Outdoor=[{
        "link":"/showOutdoor/International Virtual Marathon"
 },
 {
-    "name":"Solve The Rubik's Cube, Sharpen 6 Vital Skills",
-    "Title": "Happy SKill Events:Ghatkopar",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCA3IEp1bA%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00361252-vahsgeyzhu-portrait.jpg",
-       "link":"/showOutdoor/Solve The Rubik's Cube, Sharpen 6 Vital Skills"
+    "name":"FIT Indian Marathon 2024",
+    "Title": "Your place Your time: india",
+    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxIFNlcA%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00404946-dnekalshtn-portrait.jpg",
+       "link":"/showOutdoor/FIT Indian Marathon 2024"
 
 },
 { 

@@ -1,11 +1,9 @@
 import React from "react";
 import { Fundata, ShowfunMovie } from "./fundata";
 import {  useNavigate } from 'react-router-dom';
-
 import { useParams } from "react-router-dom";
 export function FunPicture() {
     const navigate = useNavigate();
-    // const location = useLocation();
 
     const ticketBook = () => {
         navigate('/BookingSuccess',);

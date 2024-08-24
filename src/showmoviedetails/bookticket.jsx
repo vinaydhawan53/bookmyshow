@@ -43,27 +43,7 @@ navigate('/select', {state : {state: movieData,time: time}})
       <div className="month">July</div>
   </div>)
 })}
-                    {/* <div className="date-container">
-
-
-                        <div className="day">mon</div>
-                        <div className="date">22</div>
-                        <div className="month">July</div>
-                    </div>
-                    <div className="date-container">
-                        <div className="day">tue</div>
-                        <div className="date">23</div>
-                        <div className="month">July</div>
-                    </div>
-                    <div className="date-container">
-                        <div className="day">wed</div>
-                        <div className="date">24</div>
-                        <div className="month">July</div>
-                    </div><div className="date-container">
-                        <div className="day">Thu</div>
-                        <div className="date">25</div>
-                        <div className="month">July</div>
-                    </div> */}
+                    
                 </div>
                 <div className="option">
                     <div className="option-con1">

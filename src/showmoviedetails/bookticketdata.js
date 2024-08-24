@@ -39,7 +39,6 @@
 
   
     {
-      // movie: "Jatt & Juliet 3 - Punjabi",
       theater: "Dimple Cineplex: ",
       showtimes: [
         "09:30 AM",
