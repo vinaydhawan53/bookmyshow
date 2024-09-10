@@ -7,6 +7,7 @@ export function Booking() {
 
     const arr = [1,2,3,4];
     const weekNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thrus', 'Fri', 'Sat']
+    const month=['Jan','Feb','Mar','Apr','May','June','July','Aug','Sep','Oct','Nov','Dec']
 
     const location = useLocation()
     const navigate = useNavigate()
@@ -40,7 +41,7 @@ navigate('/select', {state : {state: movieData,time: time}})
         {console.log(date.getDay() )}
       <div className="day">{ idx === 0 ? weekNames[(date.getDay())] : weekNames[date.getDay() + idx]}</div>
       <div className="date">{idx === 0 ? date.getDate() : date.getDate() + idx}</div>
-      <div className="month">July</div>
+      <div className="day">{ idx === 0 ? month[(date.getMonth())] : month[date.getMonth()]}</div>
   </div>)
 })}
                     
