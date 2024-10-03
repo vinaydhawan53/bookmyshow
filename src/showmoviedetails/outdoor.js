@@ -9,8 +9,8 @@ export const ShowOutdoorMovie = [{
 
 },
 {
-    name: "International Virtual Marathon",
-    backgroundImg: "https://assets-in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-freedom-virtual-marathon-get-trophy-by-courier-0-2024-6-9-t-5-43-47.jpg",
+    name: "The Under 25 Summit",
+    backgroundImg: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNCBEZWM%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00412000-sgwadsvmpx-portrait.jpg",
 
 },
 {
@@ -45,9 +45,9 @@ export const outdoor = [{
     ]
 }, {
 
-    name: "International Virtual Marathon",
+    name: "The Under 25 Summit",
     subdata: [{
-        title: "International Virtual Marathon",
+        title: "The Under 25 Summit",
         duration: " 5k,Marathon|Multi Language| 5yrs+|10hrs",
         release: " Sat 20 Jul 2024 at 6:00 Am",
         location: "Your place your time: india | 490 onwards"

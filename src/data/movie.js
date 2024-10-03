@@ -102,9 +102,9 @@ export const Outdoor=[{
        "link":"/showOutdoor/Run for the Ocean-Get Medal by Courier"
 
 },{
-    "name":"International Virtual Marathon",
+    "name":"The Under 25 Summit",
     "Title": "Your place Your time: india",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyMCBKdWw%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00401667-xuznkyyjxx-portrait.jpg",
+    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNCBEZWM%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00412000-sgwadsvmpx-portrait.jpg",
        "link":"/showOutdoor/International Virtual Marathon"
 },
 {
@@ -115,9 +115,9 @@ export const Outdoor=[{
 
 },
 { 
-    "name":"Kisi Ko Batana Mat Ft. Anubhav Singh  Bassi",
+    "name":"Magic Beans-The Wonderful World of Joll...",
     "Title": "Deep Smriti Auditorium",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxOCBBdWcgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00355125-yjmcbajnub-portrait.jpg",
+    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VHVlLCA4IE9jdCBvbndhcmRz,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00131524-rdxrjfzglw-portrait.jpg",
        "link":"/showOutdoor/Kisi Ko Batana Mat Ft. Anubhav Singh  Bassi"
 
 }

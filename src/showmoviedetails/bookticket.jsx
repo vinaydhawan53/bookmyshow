@@ -40,7 +40,7 @@ navigate('/select', {state : {state: movieData,time: time}})
 
         {console.log(date.getDay() )}
       <div className="day">{ idx === 0 ? weekNames[(date.getDay())] : weekNames[date.getDay() + idx]}</div>
-      <div className="date">{idx === 0 ? date.getDate() : date.getDate() + idx}</div>
+      <div className="date">{idx === 0 ? date.getDate() : date.getDate()+idx }</div>
       <div className="day">{ idx === 0 ? month[(date.getMonth())] : month[date.getMonth()]}</div>
   </div>)
 })}
