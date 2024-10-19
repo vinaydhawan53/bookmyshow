@@ -1,3 +1,24 @@
+
+// import photo1 from '../images/All_imges/photo1.jpg'
+
+import jatt from '../images/All_imges/jatt.jpg';
+import kalki from '../images/All_imges/kalki.jpg';
+import kill from '../images/All_imges/kill.jpg';
+import Despicable from '../images/All_imges/Despicable.jpg';
+import Sadapind from '../images/All_imges/saddapind.jpg';
+import yudwanshi from '../images/All_imges/yudwanshi.jpg';
+import song from '../images/All_imges/song.jpg';
+
+
+
+
+
+
+
+
+
+
+
 export const moviesData = [
   {
       "id":1,
@@ -9,7 +30,9 @@ export const moviesData = [
       "Genre": "comedy/romantic",
       "Director": "Nitesh Tiwari",
       "link":"/showMovie/jatt",
-      "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4zLzEwICAyNC42SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00370091-lgsqbqcnrm-portrait.jpg"
+      "img":jatt,
+      
+    //   "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MTYzLjNLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00383474-uhubxxurvn-portrait.jpg"
   },
   {
      "id":2,
@@ -21,7 +44,9 @@ export const moviesData = [
       "Genre": "Action/Sci-Fi/Thriler",
       "Director": "Rajkumar Hirani",
       "link":"/showMovie/kalki",
-      "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC45LzEwICA0OTIuOUsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00352941-qdafpgypxr-portrait.jpg"
+      "img":kalki,
+
+    //   "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC8xMCAgMzU4IFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00415191-kjsdvlymbv-portrait.jpg"
   },
   {"id":3,
       "Title": "Kill",
@@ -32,7 +57,8 @@ export const moviesData = [
       "Genre": "Action/Thiler",
       "Director": "Kabir Khan",
       "link":"/showMovie/kill",
-      "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MzIuM0sgTGlrZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00374797-kqytbtqgwb-portrait.jpg"
+      "img":kill,
+
   },
   {"id":4,
       "Title": "Despicable Me 4",
@@ -43,7 +69,8 @@ export const moviesData = [
       "Genre": "Action/Adventure/Animation",
       "Director": "Rajkumar Hirani",
       "link":"/showMovie/Despicable Me 4",
-      "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NTUuOEsgTGlrZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00386901-sgjlyfvnkl-portrait.jpg"
+      "img":Despicable,
+
   },
  
 
@@ -69,7 +96,7 @@ export const Funmovie=[{
 
     "name":"Day outing at yaduvanshi Farm & Resort",
     "Title": "yaduvanshi Farm & Resort:NCR",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCA3IEp1bCBvbndhcmRz,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00145761-fvqsczbfra-portrait.jpg",
+    "img":yudwanshi,
     "link":"/showExplorefun/farm"
     
 
@@ -77,15 +104,14 @@ export const Funmovie=[{
 {
      "name":"Sadda pind, Amritsar",
     "Title": "Sadda pind Amritsar",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCA3IEp1bCBvbndhcmRz,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00057357-mhqvtndecw-portrait.jpg",
+    "img":Sadapind,
        "link":"/showExplorefun/Sadda pind, Amritsar"
 },
 {
     "name":"Mehfil E Sartaaj -India Tour",
     "Title": "Multiple venues Concerts",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAzMCBBdWcgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,lx-15,ly-15,w-50,l-end/et00362185-pslqmgsnlc-portrait.jpg",
+    "img":song,
     "link":"/showExplorefun/Mehfil E Sartaaj -India Tour",
-    // {Image}
 }
 ]
 
