@@ -11,8 +11,8 @@
     width: 90%;
     flex-wrap: wrap; 
     display: flex; 
-    gap:200px;
-    padding-left: 30px;
+    gap:160px;
+    padding-left: 10px;
 /* justify-content: space-between; */
    
 }

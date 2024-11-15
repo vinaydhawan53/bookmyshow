@@ -8,13 +8,17 @@ import Despicable from '../images/All_imges/Despicable.jpg';
 import Sadapind from '../images/All_imges/saddapind.jpg';
 import yudwanshi from '../images/All_imges/yudwanshi.jpg';
 import song from '../images/All_imges/song.jpg';
+import outdoor1 from '../images/All_imges/outdoor1.jpg';
+import outdoor2 from '../images/All_imges/outdoor2.jpg';
+import outdoor3 from '../images/All_imges/outdoor3.jpg';
+import outdoor4 from '../images/All_imges/outdoor4.jpg';
+import outdoor5 from '../images/All_imges/outdoor5.jpg';
 
-
-
-
-
-
-
+import laughter1 from '../images/All_imges/laughter1.jpg';
+import laughter2 from '../images/All_imges/laughter2.jpg';
+import laughter3 from '../images/All_imges/laughter3.jpg';
+import laughter4 from '../images/All_imges/laughter4.jpg';
+import laughter5 from '../images/All_imges/laughter5.jpg';
 
 
 
@@ -118,33 +122,33 @@ export const Funmovie=[{
 export const Outdoor=[{
     "name":"Freedom Virtual Marathon-Get Trophy b...",
     "Title": "Your place Your time: india",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VGh1LCAxNSBBdWc%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00332839-kkmlutcycl-portrait.jpg",
+    "img":outdoor1,
    "link":"/showOutdoor/Freedom Virtual Marathon-Get Trophy b..."
 },
 {
     "name":"Run for the Ocean-Get Medal by Courier",
     "Title": "Your place Your time: india",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdWw%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00400167-mhwlungxuu-portrait.jpg" ,
+    "img":outdoor2 ,
        "link":"/showOutdoor/Run for the Ocean-Get Medal by Courier"
 
 },{
     "name":"The Under 25 Summit",
     "Title": "Your place Your time: india",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNCBEZWM%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00412000-sgwadsvmpx-portrait.jpg",
+    "img":outdoor5,
        "link":"/showOutdoor/International Virtual Marathon"
 },
 {
     "name":"FIT Indian Marathon 2024",
     "Title": "Your place Your time: india",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxIFNlcA%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00404946-dnekalshtn-portrait.jpg",
-       "link":"/showOutdoor/FIT Indian Marathon 2024"
+    "img":outdoor3,
+     "link":"/showOutdoor/FIT Indian Marathon 2024"
 
 },
 { 
     "name":"Magic Beans-The Wonderful World of Joll...",
     "Title": "Deep Smriti Auditorium",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VHVlLCA4IE9jdCBvbndhcmRz,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00131524-rdxrjfzglw-portrait.jpg",
-       "link":"/showOutdoor/Kisi Ko Batana Mat Ft. Anubhav Singh  Bassi"
+    "img":outdoor4,
+     "link":"/showOutdoor/Kisi Ko Batana Mat Ft. Anubhav Singh  Bassi"
 
 }
 
@@ -155,13 +159,13 @@ export const Outdoor=[{
 
     "name":"Chandigarh Comedy Festival-Pre-Sales...",
     "Title": "Venue To Be Announced: Chandigarh",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyMyBOb3Y%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00337834-zultucmufp-portrait.jpg",
-       "link":"/laughterMovie/Chandigarh Comedy Festival-Pre-Sales..."
+    "img":laughter1,
+    "link":"/laughterMovie/Chandigarh Comedy Festival-Pre-Sales..."
 
  },{
     "name":"Fatherless Behaviour By Vidushi Swaroop",
     "Title": "TAG Comedy Club: Benguluru",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMyBKdWw%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00321935-twmytyrejw-portrait.jpg",
+    "img":laughter2,
        "link":"/laughterMovie/Fatherless Behaviour By Vidushi Swaroop"
 
 
@@ -169,18 +173,18 @@ export const Outdoor=[{
  {
     "name":"Chalta hai Comedy",
     "Title": "Multiple Venues",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCA3IEp1bCBvbndhcmRz,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,lx-15,ly-15,w-50,l-end/et00312421-qsdalfadvv-portrait.jpg",
+    "img":laughter3,
        "link":"/laughterMovie/Chalta hai Comedy"
 
  },{
     "name":"OML Comedy Pit Show",
     "Title": "Multiple Venues",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCA3IEp1bCBvbndhcmRz,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,lx-15,ly-15,w-50,l-end/et00312421-qsdalfadvv-portrait.jpg",
+    "img":laughter4,
        "link":"/laughterMovie/OML Comedy Pit Show"
  },{
     "name":"Abhishek Upmanyu LIVE",
     "Title": "Multiple Venues",
-    "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCA2IFNlcCBvbndhcmRz,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,lx-15,ly-15,w-50,l-end/et00373752-bdqepzyuhb-portrait.jpg",
+    "img":laughter5,
        "link":"/laughterMovie/Abhishek Upmanyu LIVE"
  }
 
